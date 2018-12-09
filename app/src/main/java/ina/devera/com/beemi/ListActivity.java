@@ -12,13 +12,12 @@ public class ListActivity extends AppCompatActivity {
     private static String input= "";
     private EditText Search;
 
-    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
-        Search = (EditText) findViewById(R.id.Search);
+        Search = (EditText) findViewById(R.id.Searcc);
     }
 
 
