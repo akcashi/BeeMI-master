@@ -57,7 +57,7 @@ public class ResultActivity extends AppCompatActivity {
         String Evaluations = bundle.getString("Evaluation");
 
         Result.setText(" Result: " + Resulttext);
-        Age.setText("Age: " + Agetext);
+        Age.setText("Age: " + Agetext + " yr");
         Height.setText("Height: " + Heighttext + " cm");
         Weight.setText("Weight: " + Weighttext + " kg");
         Evaluation.setText("" + Evaluations);

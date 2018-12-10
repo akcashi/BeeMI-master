@@ -27,6 +27,14 @@ public class ListActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void inputBack(View v){
+        Intent i = null;
+
+            i = new Intent(this, MainActivity.class);
+            startActivity(i);
+
+    }
+
     public void normal (View v) {
         if(v.getId() == R.id.normal1) {
             Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.taste.com.au/recipes/fast-healthy-high-fibre-pasta/0a0b06cf-358e-4cc7-8d07-592874e5f7e7"));

@@ -91,7 +91,7 @@
                         android:fontFamily="@font/bahnschrift"
                         android:gravity="center"
                         android:text="Result"
-                        android:textColor="@color/cardcolor"
+                        android:textColor="@color/bgcolor"
                         android:textStyle="bold" />
 
                     <Space
@@ -204,7 +204,7 @@
 
                         <TextView
                             android:id="@+id/FoodName"
-                            android:layout_width="387dp"
+                            android:layout_width="650dp"
                             android:layout_height="40dp"
                             android:layout_weight="1"
                             android:fontFamily="@font/bahnschrift"
@@ -212,6 +212,15 @@
                             android:text="Food Name"
                             android:textColor="@color/cardcolor"
                             android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_margin="-10dp"
+                            android:layout_weight="1"
+                            android:padding="-10dp"
+                            app:srcCompat="@drawable/heart" />
 
                     </LinearLayout>
 
@@ -334,7 +343,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_weight="1"
                             android:fontFamily="@font/bahnschrift"
-                            android:text="Your BMI is "
+                            android:text="Your BMI is"
                             android:textColor="@color/cardcolor"
                             android:textStyle="bold" />
 
@@ -352,19 +361,26 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:orientation="horizontal">
 
                         <TextView
                             android:id="@+id/textView11"
                             android:layout_width="212dp"
-                            android:layout_height="33dp"
-                            android:layout_marginLeft="5dp"
-                            android:fontFamily="@font/bahnschrift"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="15dp"
                             android:layout_weight="1"
+                            android:fontFamily="@font/bahnschrift"
                             android:text="I suggest you might like this other meals as well"
                             android:textColor="@color/cardcolor"
                             android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView24"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/beeicon" />
 
                     </LinearLayout>
 
@@ -377,23 +393,25 @@
                             android:id="@+id/Link1"
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
+                            android:layout_marginLeft="15dp"
                             android:layout_weight="1"
                             android:clickable="true"
                             android:fontFamily="@font/bahnschrift"
                             android:onClick="clickExtraLink1"
                             android:text="Link 1"
-                            android:textColor="#828fe1" />
+                            android:textColor="@color/bgcolor" />
 
                         <TextView
                             android:id="@+id/Link2"
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
+                            android:layout_marginLeft="15dp"
                             android:layout_weight="1"
                             android:clickable="true"
                             android:fontFamily="@font/bahnschrift"
                             android:onClick="clickExtraLink2"
                             android:text="Link 2"
-                            android:textColor="#828fe1" />
+                            android:textColor="@color/bgcolor" />
                     </LinearLayout>
 
                     <Space
